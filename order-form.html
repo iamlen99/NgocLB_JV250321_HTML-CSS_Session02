@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form đặt hàng</title>
+  </head>
+  <body>
+    <h1>Form đặt hàng</h1>
+    <form action="http://google.com" method="post">
+      <div>
+        <label for="product">Chọn sản phẩm:</label>
+        <select name="product" id="product">
+          <option value="product-1">Sản phẩm 1</option>
+          <option value="product-2">Sản phẩm 2</option>
+          <option value="product-3">Sản phẩm 3</option>
+        </select>
+      </div>
+      <div>
+        <label for="quantity">Số lượng</label>
+        <input type="text" name="quantity" id="quantity" value="1" />
+      </div>
+      <div>
+        <label for="address">Địa chỉ giao hàng</label>
+        <textarea name="address" id="address" cols="20" rows="5"></textarea>
+      </div>
+      <button>Đặt hàng</button>
+    </form>
+  </body>
+</html>
