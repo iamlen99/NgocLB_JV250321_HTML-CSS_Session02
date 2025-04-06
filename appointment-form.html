@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tạo form đặt lịch</title>
+  </head>
+  <body>
+    <h1>Form đặt lịch</h1>
+    <form action="http://google.com" method="post">
+      <div>
+        <label for="fullname">Họ và tên:</label>
+        <input type="text" id="fullname" name="fullname" />
+      </div>
+      <div>
+        <label for="datetime">Chọn ngày giờ:</label>
+        <input type="datetime-local" id="datetime" name="datetime" />
+      </div>
+      <div>
+        <label for="service-type">Loại dịch vụ:</label>
+        <select name="service-type" id="service-type">
+          <option value="tư-vấn">Tư vấn</option>
+          <option value="đặt-phòng">Đặt phòng</option>
+          <option value="Chọn-dịch-vụ">Chọn dịch vụ</option>
+        </select>
+      </div>
+      <div>
+        <label for="note">Ghi chú:</label>
+        <textarea name="note" id="note" cols="20" rows="5"></textarea>
+      </div>
+      <button>Đặt lịch</button>
+    </form>
+  </body>
+</html>
